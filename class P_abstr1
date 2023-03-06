@@ -1,0 +1,13 @@
+abstract public class P_abstr1
+   {
+
+	abstract void addn(int e,int f);
+	abstract void mul(int h,int i);
+	void sub(int a,int b)
+	{
+		int c=a-b;
+		System.out.println("the difference is"+c);
+	}
+	
+
+}
