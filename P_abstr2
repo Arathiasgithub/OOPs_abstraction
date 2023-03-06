@@ -1,0 +1,23 @@
+public class P_abstr2 extends P_abstr1
+ {
+ void addn(int e,int f)
+ {
+	 int g=e+f;
+	 System.out.println("the addition is"+g);
+ }
+ void mul(int h,int i)
+ {
+	 int j=h+i;
+	 System.out.println("the product is"+j);
+ }
+	public static void main(String[] args) {
+		P_abstr2 p1=new P_abstr2();
+		p1.mul(2,3);
+		p1.addn(2,3);
+		p1.sub(2, 3);
+		
+	}
+	
+	
+	}
+
